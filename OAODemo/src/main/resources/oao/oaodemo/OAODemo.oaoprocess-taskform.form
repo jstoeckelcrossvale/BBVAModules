@@ -1,0 +1,46 @@
+
+<form id="1253842440">
+<property name="name" value="OAODemo.oaoprocess-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="4" name="verifiedID" type="CheckBox" id="642758746">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;verifiedID (verifiedID)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="verifiedID"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="2" name="complApp" type="CheckBox" id="1688448443">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;complApp (complApp)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="complApp"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="3" name="existingCust" type="CheckBox" id="1848712024">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;existingCust (existingCust)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="existingCust"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="appType" type="InputText" id="1462461639">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;appType (appType)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="appType"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="agentAppr" type="CheckBox" id="1674965562">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;agentAppr (agentAppr)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="agentAppr"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="agentAppr" value="java.lang.Boolean" id="agentAppr"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="appType" value="java.lang.String" id="appType"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="complApp" value="java.lang.Boolean" id="complApp"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="existingCust" value="java.lang.Boolean" id="existingCust"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="verifiedID" value="java.lang.Boolean" id="verifiedID"/>
+</form>
