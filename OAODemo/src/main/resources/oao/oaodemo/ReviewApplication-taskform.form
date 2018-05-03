@@ -1,0 +1,47 @@
+
+<form id="1390634364">
+<property name="name" value="ReviewApplication-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="customer_agentAppr" type="CheckBox" id="211316004">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;agentAppr (customer)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="OAOTestCustomer/agentAppr"/>
+<property name="outputBinding" value="Approval/agentAppr"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="customer_appType" type="InputText" id="510783222">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;appType (customer)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="OAOTestCustomer/appType"/>
+<property name="outputBinding" value="Approval/appType"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="customer_complApp" type="CheckBox" id="1970743717">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;complApp (customer)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="OAOTestCustomer/complApp"/>
+<property name="outputBinding" value="Approval/complApp"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="3" name="customer_existingCust" type="CheckBox" id="2126135089">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;existingCust (customer)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="OAOTestCustomer/existingCust"/>
+<property name="outputBinding" value="Approval/existingCust"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="4" name="customer_verifiedID" type="CheckBox" id="329363724">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;verifiedID (customer)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="OAOTestCustomer/verifiedID"/>
+<property name="outputBinding" value="Approval/verifiedID"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="OAOTestCustomer" name="#E9E371" type="dataModelerEntry" outId="Approval" value="oao.oaodemo.OAOTestCustomer" id="customer"/>
+</form>
